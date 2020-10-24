@@ -25,7 +25,7 @@ public class Inventory : MonoBehaviour
         tea -= R.getTea();
         coffee -= R.getCoffee();
         money += R.getPrice();
-        moneyCounter.text = "Cash: " + money;
+        // moneyCounter.text = "Cash: " + money;
     }
 
     public override string ToString()

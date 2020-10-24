@@ -37,41 +37,41 @@ public class ShopManager : MonoBehaviour
         iceCounter.text = "Ice (" + inventory.ice + ")";
         teaCounter.text = "Tea (" + inventory.tea + ")";
         coffeeCounter.text = "Coffee (" + inventory.coffee + ")";
-        moneyCounter.text = "Cash: " + inventory.money;
+        moneyCounter.text = "Cash: $ " + inventory.money;
     }
 
     public void buySugar() {
         inventory.sugar+=10;
         inventory.money-=1;
         sugarCounter.text = "Sugar (" + inventory.sugar + ")";
-        moneyCounter.text = "Cash: " + inventory.money;
+        moneyCounter.text = "Cash: $ " + inventory.money;
     }
 
     public void buyMilk() {
         inventory.milk+=5;
         inventory.money-=1;
         milkCounter.text = "Milk (" + inventory.milk + ")";
-        moneyCounter.text = "Cash: " + inventory.money;
+        moneyCounter.text = "Cash: $ " + inventory.money;
     }
 
     public void buyIce() {
         inventory.ice+=20;
         inventory.money-=1;
         iceCounter.text = "Ice (" + inventory.ice + ")";
-        moneyCounter.text = "Cash: " + inventory.money;
+        moneyCounter.text = "Cash: $ " + inventory.money;
     }
 
     public void buyTea() {
         inventory.tea+=5;
         inventory.money-=1;
         teaCounter.text = "Tea (" + inventory.tea + ")";
-        moneyCounter.text = "Cash: " + inventory.money;
+        moneyCounter.text = "Cash: $ " + inventory.money;
     }
 
     public void buyCoffee() {
         inventory.coffee+=5;
         inventory.money-=2;
         coffeeCounter.text = "Coffee (" + inventory.coffee + ")";
-        moneyCounter.text = "Cash: " + inventory.money;
+        moneyCounter.text = "Cash: $ " + inventory.money;
     }
 }
